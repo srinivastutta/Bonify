@@ -23,7 +23,7 @@ WebDriver driver;
 		driver.manage().deleteAllCookies();
 		
 	}
-	
+	//To forget password
 	@Test
 	public void ForgetPass(){
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("srinivas.tutta@gmail.com");
