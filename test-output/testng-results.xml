@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="127099" started-at="2018-09-05T12:35:30Z" finished-at="2018-09-05T12:37:37Z">
+  <suite name="Default suite" duration-ms="21050" started-at="2018-09-10T18:09:26Z" finished-at="2018-09-10T18:09:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="127099" started-at="2018-09-05T12:35:30Z" finished-at="2018-09-05T12:37:37Z">
-      <class name="bonifyLoginPage.Task3_LoginPageValidation">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:bonifyLoginPage.Task3_LoginPageValidation@46d56d67]" name="SetUp" is-config="true" duration-ms="51671" started-at="2018-09-05T14:35:30Z" finished-at="2018-09-05T14:36:22Z">
+    <test name="Default test" duration-ms="21050" started-at="2018-09-10T18:09:26Z" finished-at="2018-09-10T18:09:47Z">
+      <class name="bonifyLoginPage.ForgotPasswordTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:bonifyLoginPage.ForgotPasswordTest@46d56d67]" name="SetUp" is-config="true" duration-ms="17057" started-at="2018-09-10T20:09:26Z" finished-at="2018-09-10T20:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="ForgetPassValidation()[pri:0, instance:bonifyLoginPage.Task3_LoginPageValidation@46d56d67]" name="ForgetPassValidation" duration-ms="3267" started-at="2018-09-05T14:36:22Z" finished-at="2018-09-05T14:36:25Z">
+        <test-method status="PASS" signature="ForgetPass()[pri:0, instance:bonifyLoginPage.ForgotPasswordTest@46d56d67]" name="ForgetPass" duration-ms="2591" started-at="2018-09-10T20:09:43Z" finished-at="2018-09-10T20:09:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ForgetPassValidation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:bonifyLoginPage.Task3_LoginPageValidation@46d56d67]" name="TearDown" is-config="true" duration-ms="14" started-at="2018-09-05T14:36:25Z" finished-at="2018-09-05T14:36:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:bonifyLoginPage.Task3_LoginPageValidation@46d56d67]" name="SetUp" is-config="true" duration-ms="68866" started-at="2018-09-05T14:36:25Z" finished-at="2018-09-05T14:37:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="RegistrationPgValidation()[pri:0, instance:bonifyLoginPage.Task3_LoginPageValidation@46d56d67]" name="RegistrationPgValidation" duration-ms="3231" started-at="2018-09-05T14:37:34Z" finished-at="2018-09-05T14:37:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegistrationPgValidation -->
-        <test-method status="PASS" signature="TearDown()[pri:0, instance:bonifyLoginPage.Task3_LoginPageValidation@46d56d67]" name="TearDown" is-config="true" duration-ms="25" started-at="2018-09-05T14:37:37Z" finished-at="2018-09-05T14:37:37Z">
+        </test-method> <!-- ForgetPass -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:bonifyLoginPage.ForgotPasswordTest@46d56d67]" name="TearDown" is-config="true" duration-ms="1387" started-at="2018-09-10T20:09:46Z" finished-at="2018-09-10T20:09:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- bonifyLoginPage.Task3_LoginPageValidation -->
+      </class> <!-- bonifyLoginPage.ForgotPasswordTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
